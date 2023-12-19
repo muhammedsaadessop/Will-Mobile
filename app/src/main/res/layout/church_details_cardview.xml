@@ -1,0 +1,70 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="16dp"
+    tools:ignore="MissingConstraints">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Church Details:"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"  />
+        <!-- Church Name TextView -->
+        <TextView
+            android:id="@+id/churchNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Church Name"
+            android:textSize="18sp"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp" />
+
+        <!-- Church Location TextView -->
+        <TextView
+            android:id="@+id/churchLocationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location: Some Location"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp" />
+
+        <!-- Church Members TextView -->
+        <TextView
+            android:id="@+id/churchMembersTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Members: 25"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp" />
+
+        <!-- Church Pastors TextView -->
+        <TextView
+            android:id="@+id/churchPastorsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pastors: John Doe, Jane Smith"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

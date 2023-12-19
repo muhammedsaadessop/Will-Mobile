@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Harvest Tabernacle Church</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="currency_format">R %1$.2f</string>
+    <string name="date_format">Date: %s</string>
+</resources>

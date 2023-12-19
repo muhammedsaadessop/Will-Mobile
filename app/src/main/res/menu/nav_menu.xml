@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/group_account"
+        android:title="Account">
+
+    <menu>
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_account"
+        android:title="Profile"
+        />
+
+        <item
+        android:id="@+id/menu_church_details"
+        android:icon="@drawable/ic_details"
+        android:title="Church Details"
+        />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Log Out"
+        />
+    </menu>
+
+    </item>
+
+    <item android:id="@+id/group_menu"
+        android:title="Menu">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_member"
+                android:icon="@drawable/ic_member"
+                android:title="Members"
+                />
+
+            <item
+                android:id="@+id/menu_pastor"
+                android:icon="@drawable/ic_pastor"
+                android:title="Pastors"
+                />
+
+            <item
+                android:id="@+id/menu_secretary"
+                android:icon="@drawable/ic_secretary"
+                android:title="Secretary"
+                />
+
+            <item
+                android:id="@+id/menu_finance"
+                android:icon="@drawable/ic_finance"
+                android:title="Finance"
+                />
+
+            <item
+                android:id="@+id/menu_event"
+                android:icon="@drawable/ic_event"
+                android:title="Events"
+                />
+
+        </menu>
+    </item>
+
+
+</menu>

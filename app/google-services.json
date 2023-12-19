@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "183151338819",
+    "project_id": "thchurch-661c7",
+    "storage_bucket": "thchurch-661c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183151338819:android:c4ebd8d29743fad3207bf6",
+        "android_client_info": {
+          "package_name": "com.varsitycollege.htchurchmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183151338819-7qqk3rt278vh72mtas87pgokmkm9a90i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzf51rwPPkH1Wui27NPtMaEEsiNLE_O44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183151338819-7qqk3rt278vh72mtas87pgokmkm9a90i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+
+‘kotlin:S6611w"rMap values should be accessed safely. Using the non-null assertion operator here can throw a NullPointerException.(–Ãç‚8´¡é­­1
+kotlin:S6611x"rMap values should be accessed safely. Using the non-null assertion operator here can throw a NullPointerException.(ÄèÑE8´¡é­­1
+–kotlin:S6611y"rMap values should be accessed safely. Using the non-null assertion operator here can throw a NullPointerException.(”¢ôêÿÿÿÿÿ8´¡é­­1
+‘kotlin:S6611z"rMap values should be accessed safely. Using the non-null assertion operator here can throw a NullPointerException.(­ü¹8´¡é­­1
+–kotlin:S6611{"rMap values should be accessed safely. Using the non-null assertion operator here can throw a NullPointerException.(åÖµûÿÿÿÿ8´¡é­­1
+‘kotlin:S6611|"rMap values should be accessed safely. Using the non-null assertion operator here can throw a NullPointerException.(¢Ëƒ8´¡é­­1
+qkotlin:S117D"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(åÔßÂ8üåø®­1
+9kotlin:S6530R"Remove this unchecked cast.(Øò48º¡é­­1
+:kotlin:S6530s"Remove this unchecked cast.(Éıç·8º¡é­­1
+Okotlin:S1481n"+Remove this unused "userID" local variable.(ÏéäÃüÿÿÿÿ8º¡é­­1
+jkotlin:S101"LRename class "secratary" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(è§ã§8¼¡é­­1
+Jkotlin:S6518R",Replace function call with indexed accessor.(Øò48¿¡é­­1

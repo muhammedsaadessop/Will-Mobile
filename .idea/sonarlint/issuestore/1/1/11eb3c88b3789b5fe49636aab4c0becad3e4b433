@@ -1,0 +1,27 @@
+
+qkotlin:S117."SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(åÔßÂ8ò½‰·1
+Hkotlin:S108™")Either remove or fill this block of code.(½ûöÆ8ı½‰·1
+Hkotlin:S108è")Either remove or fill this block of code.(ÿ¸¸¸8ı½‰·1
+9kotlin:S6530:"Remove this unchecked cast.(Øò48„¾‰·1
+;kotlin:S6530ë"Remove this unchecked cast.(ïûÈÊ8„¾‰·1
+;kotlin:S6530ì"Remove this unchecked cast.(Ä‘Òø8„¾‰·1
+;kotlin:S6530Ç"Remove this unchecked cast.(Ä‘Òø8„¾‰·1
+;kotlin:S6530‰"Remove this unchecked cast.(Ğç¡¹8„¾‰·1
+;kotlin:S6530Š"Remove this unchecked cast.(Ä‘Òø8Øî•¸¾1
+Ukotlin:S1481"0Remove this unused "currentDate" local variable.(…ú‡¡üÿÿÿÿ8…¾‰·1
+Wkotlin:S1481\"8Remove this unused "totalAmountTextView" local variable.(Ê­œ8…¾‰·1
+Vkotlin:S1481Z"2Remove this unused "totalCardView" local variable.(º¼âºÿÿÿÿÿ8…¾‰·1
+Nkotlin:S1481")Remove this unused "time" local variable.(»ÿøÅûÿÿÿÿ8†¾‰·1
+Nkotlin:S1481")Remove this unused "date" local variable.(»ÿøÅûÿÿÿÿ8†¾‰·1
+9kotlin:S1128"Remove this unused import.(ºà—8Œ¾‰·1
+9kotlin:S1128"Remove this unused import.(Áå­8Œ¾‰·1
+gkotlin:S1192à"GDefine a constant instead of duplicating this literal "R %.2f" 3 times.(½Äœ¾8¾‰·1
+vkotlin:S3776I"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(¶Á»¬şÿÿÿÿ8‘¾‰·1
+qkotlin:S3776Ş"RRefactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.(ıúä8‘¾‰·1
+rkotlin:S3776ø"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(—÷‹¢8’¾‰·1
+Jkotlin:S6518:",Replace function call with indexed accessor.(Øò48™¾‰·1
+Qkotlin:S6518Æ",Replace function call with indexed accessor.(«›‡Ëıÿÿÿÿ8öî•¸¾1
+Lkotlin:S6518ë",Replace function call with indexed accessor.(ïûÈÊ8™¾‰·1
+Lkotlin:S6518‰",Replace function call with indexed accessor.(Ğç¡¹8™¾‰·1
+Qkotlin:S6518¤",Replace function call with indexed accessor.(Ûì×ºúÿÿÿÿ8š¾‰·1
+Qkotlin:S6518´",Replace function call with indexed accessor.(®Á¥ıÿÿÿÿ8š¾‰·1

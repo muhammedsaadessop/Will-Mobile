@@ -1,0 +1,20 @@
+
+lkotlin:S117ğ"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(îÑ˜C8±É˜¾1
+@kotlin:S6530µ"Remove this unchecked cast.(¿ù¶åşÿÿÿÿ8ÂÉ˜¾1
+@kotlin:S6530¿"Remove this unchecked cast.(×¦‹Ûÿÿÿÿÿ8ÂÉ˜¾1
+@kotlin:S6530Â"Remove this unchecked cast.(ª—ˆãşÿÿÿÿ8ÂÉ˜¾1
+@kotlin:S6530÷"Remove this unchecked cast.(ÿŸ™¼ùÿÿÿÿ8÷Æ£¶¾1
+;kotlin:S6530"Remove this unchecked cast.(×†ûÙ8ÂÉ˜¾1
+;kotlin:S6530 "Remove this unchecked cast.(´Šü¦8ÂÉ˜¾1
+@kotlin:S6530ª"Remove this unchecked cast.(ÆÅÏ¨ıÿÿÿÿ8ÂÉ˜¾1
+Okotlin:S1481Û"*Remove this unused "store" local variable.(úÎ­ùÿÿÿÿ8ğí ˜¾1
+vkotlin:S1192ã"QDefine a constant instead of duplicating this literal "get failed with " 8 times.(°¯†„şÿÿÿÿ8ËÉ˜¾1
+wkotlin:S1192•"RDefine a constant instead of duplicating this literal "No such document" 10 times.(¥ªÿùÿÿÿÿ8ËÉ˜¾1
+rkotlin:S3776§"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ø§Ìò8ÎÉ˜¾1
+wkotlin:S3776ê"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ÀÖµ¡ûÿÿÿÿ8ŠÇ£¶¾1
+Qkotlin:S6518µ",Replace function call with indexed accessor.(¿ù¶åşÿÿÿÿ8ÖÉ˜¾1
+Qkotlin:S6518ª",Replace function call with indexed accessor.(ÆÅÏ¨ıÿÿÿÿ8ÖÉ˜¾1
+Qkotlin:S6518÷",Replace function call with indexed accessor.(ÿŸ™¼ùÿÿÿÿ8”Ç£¶¾1
+Lkotlin:S6518 ",Replace function call with indexed accessor.(´Šü¦8ÖÉ˜¾1
+Qkotlin:S6518¿",Replace function call with indexed accessor.(×¦‹Ûÿÿÿÿÿ8ÖÉ˜¾1
+Lkotlin:S6518",Replace function call with indexed accessor.(×†ûÙ8ÖÉ˜¾1

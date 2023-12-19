@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HTCHURCHMOBILE" parent="Theme.MaterialComponents.DayNight">
+
+    </style>
+    <style name="Theme.HTCHURCHMOBILE" parent="Base.Theme.HTCHURCHMOBILE" />
+</resources>

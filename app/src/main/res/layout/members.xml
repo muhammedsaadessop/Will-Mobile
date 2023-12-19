@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/member_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Member List"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/member_recyclerView"
+        android:background="@drawable/arrow_back"
+        android:layout_alignParentTop="true" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/member_recyclerView"
+        android:layout_below="@id/member_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/display_member"
+            android:background="@drawable/cardview_top_radius"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/member_title"
+            android:paddingTop="25dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="164dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginBottom="-155dp"
+                android:rotation="270"
+                app:menu_labels_ellipsize="end"
+                app:menu_labels_singleLine="true">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/back_btns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="90"
+                    android:src="@drawable/arrow_back"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/profile_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="90"
+                    android:src="@drawable/ic_account"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/finance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="90"
+                    android:src="@drawable/ic_finance"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/pastor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="90"
+                    android:src="@drawable/ic_pastor"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/member"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="90"
+                    android:src="@drawable/ic_event"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/sec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="90"
+                    android:src="@drawable/ic_secretary"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+            </com.github.clans.fab.FloatingActionMenu>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

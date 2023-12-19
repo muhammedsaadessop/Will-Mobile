@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/arrow_back"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/events_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Events:"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+
+                android:id="@+id/calendarView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mcv_showOtherDates="all"
+                android:layout_marginTop="15dp"
+                app:mcv_selectionColor="#00F"
+                />
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/event_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp"
+                android:background="@color/white"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <EditText
+                        android:id="@+id/event_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/white"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:id="@+id/event_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="Enter Event name..."
+                        android:textSize="20sp"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:id="@+id/event_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="Enter Event description"
+                        android:textSize="20sp"
+                        android:inputType="text" />
+
+
+                    <!-- Event Start Time -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Event Start Time"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"/>
+
+                    <TimePicker
+                        android:id="@+id/start_time_picker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:timePickerMode="spinner"/>
+
+                    <!-- Event End Time -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Event End Time"
+                        android:textSize="18sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"/>
+
+                    <TimePicker
+                        android:id="@+id/end_time_picker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:timePickerMode="spinner"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select Respective Church:"
+                        android:textSize="18sp"
+                        android:layout_marginTop="16dp"/>
+
+                    <Spinner
+                        android:id="@+id/church_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        />
+
+                    <EditText
+                        android:id="@+id/event_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="Enter Event address..."
+                        android:textSize="20sp"
+                        android:inputType="text"  />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/finish_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="#60AE8C"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Add"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
